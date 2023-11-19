@@ -62,20 +62,16 @@ Los proyectos de los estudiantes serán evaluados de acuerdo a los siguientes cr
 
 Se entrega el código con 2 versiones, la `v1.0.0` usando `JOptionPane` para controlar el flujo del programa con mensajes informativos, y la `v2.0.0` haciendo uso de `Swing` y `Java.form` para tener una interfaz gráfica mas amigable con el usuario al estilo app desktop.
 
+![v2.0.0](https://img.shields.io/badge/v2.0.0-8A2BE2)
+
+<img src="./src/images/AppRegister_v2.0.0.gif" width=400 alt="Aplicación v2.0.0 funcionando">
+
+![v1.0.0](https://img.shields.io/badge/v1.0.0-8A2BE2)
+
+<img src="./src/images/AppRegister_v1.0.0.gif" width=300 alt="Aplicación v1.0.0 funcionando">
 
 
-<div style="display: flex; gap: 20px;">
-<div style="display: flex; flex-direction: column; gap: 10px;">
-      <img src=https://img.shields.io/badge/v2.0.0-8A2BE2" width=50 alt="Versión" >
-      <img src="./src/images/AppRegister_v2.0.0.gif" width=400 alt="Aplicación v2.0.0 funcionando">
-   </div>
-   <div style="display: flex; flex-direction: column; gap: 10px;">
-      <img src=https://img.shields.io/badge/v1.0.0-8A2BE2" width=50 alt="Versión" >
-      <img src="./src/images/AppRegister_v1.0.0.gif" width=300 alt="Aplicación v1.0.0 funcionando">
-   </div>
-</div>
-
-> Se crean los 2 modelos|clases **Person** y **Register**, con los atributos y métodos solicitados y necesarios para las funcionalidades requeridas.
+> Se crean los 2 modelos - clases **Person** y **Register**, con los atributos y métodos solicitados y necesarios para las funcionalidades requeridas.
 
 ![diagrama de clases](./src/images/diagrama%20de%20clases.png)
 
