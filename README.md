@@ -132,3 +132,10 @@ Se crean 3 Vistas `Java.form` en el paquete View, `App` que es la principal, cre
 
 La lógica la aplica la clase `AppController` que se encuentra en el paquete Controller, tiene la función de registrar, validar (se reutiliza la lógica de la `v1.0.0`), eliminar y mostrar los datos del `Register` el cual se instancia desde la misma clase.
 
+## Informe de problemas solucionados
+
+No tuve problemas para resolver el proyecto y cumplir los requisitos, inicié con un código funcional directamente acoplado en Main.java y a partir de ahi fui refactorizando y modularizando, corrigiendo errores y validaciones, para hacer un código mas limpio y mantenible. Mejorando la lógica y las interacciones con el usuario. Haciendo pruebas finales y añadiendo funcionalidades.
+
+Para la `v2.0.0` si tuve que investigar sobre **Swing** "biblioteca de clases que permite crear interfaces gráficas de usuario en Java", para poder mejorar o crear realmente una interfaz de usuario, para hacerlo me apoye de la documentación, de AI y de videos; de esta manera y necesariamente usando las herramientas de Netbeans para poder visualisar mis vistas, fui aprendiendo a crear `labels, buttons, icons, titles, tables`, programar acciones y eventos para controlar el flujo del programa.
+
+Concluyendo estoy satisfecho con ambas versiones por lo cual las dejo incluidas en mi entrega final, una realizada con lo aprendido en clases y otra con un poco mas de información e investigación. Estoy seguro de que tiene lugar para mejoras, y que resta mucho mas por aprender, pero estoy contento con el resultado logrado.
