@@ -29,7 +29,7 @@ public class AppController {
     public static boolean validarDatos(String nombre, String apellido, String dni, String fechaNacimiento){
         boolean nombreValido = !nombre.trim().isEmpty();
         boolean apellidoValido = !apellido.trim().isEmpty();
-        boolean dniValido = dni.matches("\\d{8}"); // Verificar que el DNI tenga 8 dígitos
+        boolean dniValido = dni.matches("\\d{8}") && Integer.parseInt(dni)>0; // Verificar que el DNI tenga 8 dígitos
         boolean fechaValida = validarFecha(fechaNacimiento);
         
         return nombreValido && apellidoValido && dniValido && fechaValida;
